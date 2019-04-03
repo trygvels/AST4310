@@ -1,0 +1,41 @@
+DATA SSB
+
+[trygvels@mothallah SSB]$ python readfalc.py 
+Photon density at deepest model location: 1.66117e+13
+Hydrogen density at deepest model location: 1.351e+17
+Photon density at highest model location: 6.11473e+11
+Hydrogen density at highest model location: 5.575e+09
+
+
+[trygvels@mothallah SSB]$ python readsolspect.py
+max(Ic) =  4.6 at [ 0.41]
+
+[trygvels@mothallah SSB]$ python readsolspect.py
+max(Ic) =  4.20266666667e-05 at [ 0.8]
+
+
+[trygvels@mothallah SSB]$ python emergentI.py 
+Mean height of formation:  -3.13971570857
+computed continuum intensity wl = 0.5 : 4.28874e+14 erg s-1 cm-2 ster-1 cm-1
+observed continuum intensity wav=0.5 : 4.08e+14 erg s-1 cm-2 ster-1 cm-1
+Mean height of formation:  24.1092633752
+computed continuum intensity wl = 1 : 1.2541e+14 erg s-1 cm-2 ster-1 cm-1
+observed continuum intensity wav=1 : 1.23e+14 erg s-1 cm-2 ster-1 cm-1
+Mean height of formation:  -17.9438162565
+computed continuum intensity wl = 1.6 : 4.27783e+13 erg s-1 cm-2 ster-1 cm-1
+observed continuum intensity wav=1.6 : 4.03e+13 erg s-1 cm-2 ster-1 cm-1
+Mean height of formation:  75.9259958352
+computed continuum intensity wl = 5 : 5.74415e+11 erg s-1 cm-2 ster-1 cm-1
+observed continuum intensity wav=5 : 5.7e+11 erg s-1 cm-2 ster-1 cm-1
+
+
+
+#Oppgave 3.1
+[trygvels@raak SSB]$ python read31.py
+Vacuum wavelength of minima: 5.892e-05 
+
+#Oppgave 3.1 (Second half)
+[trygvels@raak SSB]$ python read31.py
+Vacuum wavelength of minima: 5.916e-05 
+
+
